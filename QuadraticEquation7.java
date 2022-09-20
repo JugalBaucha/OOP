@@ -20,7 +20,7 @@ class QuadraticEquation7{
 		System.out.println("Enter C:");
 		c= scan.nextDouble();
 		
-		part1=(b*b)-(4*a*c)/2*a;
+		part1=(b*b)-(4*a*c)/(2*a);
 		part2=-b+Math.sqrt(part1);
 		
 		System.out.println("Equation:"+part2);
